@@ -1,0 +1,19 @@
+{
+   "author": "virtual-dev",
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "description": "The default New Tab is not Google enough ? Try Cardboard, Now with more Material Design (plus nifty features)",
+   "icons": {
+      "128": "resources/icon128.png",
+      "16": "resources/icon16.png",
+      "48": "resources/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlTG6821duDouJ2OJ1LbLR1rUFMBqPKPCJTNv4sGnXc+o5+PJ8qXERdrbwfeeaTpWR9cX0UowwBbSE16+v91zpBBcSUDDO4EniUCCRGKRGeoxjJofYpmVakztgmOQZkTRTwYOFsYrURVDJX2nxNs2qKgKSe4znyek0zqHS9OnU61bb6FWAiZPQnQbCca+ILjWHkfHaIjDBLiwTuQvnn9McU2qFzNF/bcKkeh9/6RuTLzMm1ozb4zSb0uCAeazjtn0JfjYLLj7fK+X5TrrzxTPLXM07fphr5bY9xAjK4wM4UwTNvGjIdjARE+NG4gG4AhDEMn+PDz0uG+ONJHr3l0f0QIDAQAB",
+   "manifest_version": 2,
+   "name": "Cardboard - New Tab Page",
+   "optional_permissions": [ "tabs", "topSites", "bookmarks", "management", "history" ],
+   "permissions": [ "https://www.google-analytics.com/", "storage", "sessions", "browsingData", "downloads", "downloads.open", "system.cpu", "system.memory", "system.storage", "https://hawttrends.appspot.com/api/terms/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.3"
+}
